@@ -1,0 +1,112 @@
+@font-face {
+    font-family: europa;
+    src: url("./europa-regular-webfont.ttf"),
+}
+
+body{ /* ok */
+    font-family: 'europa', sans-serif;
+    background-color: #000;
+    color: #FFF;
+    margin: 0px;
+}
+
+.menu-superior {  /* ok */
+    background-color: #ff0101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-family: europa;
+}
+
+.logo { /* ok */
+    filter: invert(100%);
+    width: 30px;
+}
+
+.menu-botoes { /* ok */
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao-superior {
+    background-color: #0e8368;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    font-weight: 800; /* Botão em negrito pesado */
+    cursor: pointer;
+}
+
+.cabecalho {
+    text-align: center;
+    /* background-color: #000;
+    color: #fff;
+    padding: 40px 20px; */
+}
+
+.video {
+    height:100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.titulo {
+    font-size: 45px;
+    margin-bottom: -15px;
+    /* font-weight: 800;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5px;
+    font-family: europa-bold; */
+}
+
+.local {
+    font-size: 20px;
+    /* font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    margin: 12px 0 25px 0;
+    color: #e0e0e0; */
+}
+
+.data {
+    font-size: 1rem;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* text-align: center;
+    font-weight: 800;
+    text-transform: uppercase; 
+    line-height: 1.8rem; 
+    color: #d1d1d1; */
+}
+
+.pre-registro {
+    margin-bottom: 40px;
+    /* font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 650px;
+    color: #ffffff;
+    font-family: europa-light; */
+}
+
+.botao { 
+    font-family: 'europa', sans-serif;
+    background-color: #0e8368;
+    color: #ffffff;
+    padding: 14px 36px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    /* font-weight: 800; /* Botão em negrito pesado 
+    font-size: 0.85rem;
+    letter-spacing: 2px; */
+}

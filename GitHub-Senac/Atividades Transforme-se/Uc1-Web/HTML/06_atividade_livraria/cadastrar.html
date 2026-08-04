@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+</head>
+<body>
+    
+    <h1>Livraria Encantada</h1>
+        <a href="./index.html">Início</a> <br/>
+        <a href="./entrar.html">Entrar</a> / <a href="./cadastrar.html">Cadastrar</a> <br/>
+        <a href="./contato.html">Contato</a>
+        
+    <hr/>
+
+    <h2>Cadastre-se</h2>
+
+    <p>Crie uma conta para poder comprar nossos livros e aproveitar nossas promoções!</p>
+    
+    <p>Já tem uma conta? Acesse o seu painel de usuário! <a href="./entrar.html">Clique aqui</a>.</p>
+
+    <p> <strong> Informações pessoais </strong> </p>
+
+    <form action="pags_ocultas/cadastro.html"> <!-- form action - cria um formulário dizendo para onde
+        o usuário vai ser direcionado (página de sucesso do login) ao realizar uma ação (clicar no botão) -->
+
+    <!-- Campo Nome -->
+    <p> <label for="campo-nome">Nome completo:</label> 
+    <br/>
+    <input size="25" type="text" id="campo-nome" placeholder="Digite seu nome aqui" required maxlength="50"> </p>
+
+    <!-- Campo Data -->
+    <p> <label for="campo-data_nasc">Data de nascimento:</label>
+    <br/>
+    <input size="25" type="date" id="data_nasc" placeholder="Digite seu aniversário aqui" required> </p>
+
+    <!-- Campo Endereço -->
+    <p> 
+        <label for="campo-endereco">Endereço:</label> 
+        <br/>
+        <input size="25" type="text" id="campo-endereco" placeholder="Rua" required maxlength="30">
+        <input size="25" type="number" id="campo-endereco" placeholder="Número" required maxlength="7">
+        <input size="25" type="text" id="campo-endereco" placeholder="Bairro" required maxlength="25">
+    </p>
+
+    <br/>
+
+    <small> <strong> Você está se cadastrando para: </strong> </small> 
+    
+    <br/><br/>
+    
+    <input type="radio" id="opcao-comprar" name="acao-livro" required>
+    <label for="opcao-comprar">Comprar livros</label>
+
+    <br/>
+
+    <input type="radio" id="opcao-vender" name="acao-livro">
+    <label for="opcao-vender">Vender meus livros</label>
+
+    <br/>
+
+    <input type="radio" id="opcao-trocar" name="acao-livro">
+    <label for="opcao-trocar">Trocar livros</label>
+
+    <p> <strong> <br/> Dados de login </strong> </p>
+
+    <!-- Campo E-mail -->
+    <p> <label for="campo-email">E-mail:</label> 
+    <br/>
+    <input size="25" type="email" id="campo-email" placeholder="Digite o e-mail aqui" required> </p>
+
+    <!-- Campo Senha -->
+    <p> <label for="campo-senha">Senha:</label>
+    <br/>
+    <input size="25" type="password" id="campo-senha" placeholder="Digite a senha aqui" required> </p>
+
+    <input type="checkbox"/> Quero receber promoções no meu e-mail
+
+    <br/><br/>
+    <button type="submit">Salvar e continuar</button>
+
+    </form>
+
+</body>
+</html>

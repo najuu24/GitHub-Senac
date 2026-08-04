@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body{
+    color:#555555;
+    background-color: #695f5f;
+    font-family: 'Cinzel', serif;
+}
+
+.cabecalho{
+    background-image: url('../fundoImg.png');
+    height: 725px;
+}
+
+.titulo{
+    color: #fdffff;
+    text-align: center;
+    font-size: 150px;
+    margin-bottom: -90px;
+}
+
+.subtitulo{
+    color: #0c0b0b;
+    font-size: 52px;
+    text-align: center;
+}
+

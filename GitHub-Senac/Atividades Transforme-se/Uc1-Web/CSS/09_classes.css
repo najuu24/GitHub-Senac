@@ -1,0 +1,84 @@
+/*  sites:
+     + ADOBE COLOR WHEEL
+     + MATERIAL PALETTE
+
+    ideias:
+     + PALETTE COLOR *cor* MODERN DESIGN
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #FFEBE8;
+    color: #B72818;            
+    font-family: "Inter", sans-serif;   
+    
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    color: #f0b800;
+    font-size: 35px;
+    
+    margin: 0 0 10px 0;
+}
+
+.subtitulo{
+    color: #e9af0f;            /* Creme para manter o topo elegante */
+    font-size: 25px;
+    
+    margin: 0 0 15px 0;
+}
+
+.cabecalho{
+    background-color: #B72818; /* Substitui o vermelho vivo pelo Verde Petróleo Escuro */
+    text-align: center;
+    color: #ffa641;
+    
+    padding: 40px 20px;        /* Espaçamento interno para respirar */
+}
+
+.menu{
+    text-align: center;
+    background-color: #FFEBE8;
+    
+    padding: 15px;
+}
+
+.secao{
+    color: #1D3ECF;            /* Vermelho cereja/vinho no lugar do azul */
+    text-align: center;
+    font-size: 30px;
+    
+    margin-top: 30px;
+}
+
+.card{
+    background-color: #E6AF00;
+    width: 300px;
+    text-align: center;
+}
+
+
+.card-titulo{
+    font-size: 25px;
+    color: #B72818;
+}
+
+.card-descricao{
+    color: black;
+    font-size: 10px;
+    text-align: left;
+}
+
+.card-preco{
+    font-size: 20px;
+    color: #B72818;
+    text-align: left;
+}
+
+.card-botao{
+    background-color: #e67b00;
+    color: white;
+}

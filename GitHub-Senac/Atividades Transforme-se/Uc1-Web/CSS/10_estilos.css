@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif; 
+    color: #2D3142;  /* ou #444444 */
+    background-color: #F7F9FA;
+}
+
+.cabecalho{
+    background-color: #ffc0cb;
+    margin: 50px;                       
+    padding: 50px;                      
+    border-radius: 20px;               
+    box-shadow: 1px 2px 3px #D6E4F0;  
+}
+
+.cabecalho h1{        /* procura o/os h1 dentro da classe cabecalho e faz as acoes descritas dentro da classe*/
+    color: #2D3142;
+    margin: 0;
+}
+
+.cabecalho p{
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.botao{
+    padding: 10px 10px; 
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.botao-principal{
+    background-color: #beffe6;
+    border: 1,5px solid #2D3142;
+}
+
+.botao-invertido{  
+    background-color: #ffc0cb;
+    border: 2px solid #2D3142;
+    color: #2D3142;
+}
+

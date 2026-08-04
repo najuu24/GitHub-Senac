@@ -1,0 +1,18 @@
+.anotacoes{
+    /* link rel="stylesheet" href="./11_cards.css"/  ;    USADO NO HTML PARA RELACIONAR COM O ARQUIVO CSS */
+
+    color:#014B43;                                  /* MUDA A COR DA LETRA */
+    font-size: 25px;                                  /* MUDA O TAMANHO DA LETRA */
+    background-color:#FFEBE8;                       /* MUDA A COR DO FUNDO */
+    text-align: center;                               /* CENTRALIZA O TEXTO NA TELA */
+    width: 300px;                                     /* MUDA A LA                RGURA/TAMANHO DAS COISAS */
+      
+    margin: 50px;                                     /* MEXE NO TAMANHO DA MARGEM EXTERNA */
+    padding: 50px;                                    /* MEXE NO TAMANHO DO ESPAÇO INTERNO, ONDE: 1º é p/ cima e p/ baixo, 2º esquerda e direita */
+    border-radius: 20px;                              /* MEXE NO ARREDONDAMENTO DAS PONTAS */
+    box-shadow: 1px 2px 3px #CDCDCD;                /* MEXE NA SOMBRA AO REDOR, ONDE: 1º mexe pra esquerda e direita, 2º mexe pra cima e pra baixo, 3º espalhamento/o tanto de borrada que a sombra vai ficar, 4º muda a cor da sombra */
+
+    cursor: pointer;                                  /* MUDA O CURSOR QUE APARECE QUANDO O USER PASSA O MOUSE POR CIMA */
+    border: 1,5px solid #003F34;                    /* MUDA O TAMANHO, FORMA E COR DA BORDA */
+    font-weight: bold;                                /* MUDA A ESPESSURA DA FONTE (serve como o strong, por exemplo) */
+}
